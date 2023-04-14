@@ -1,7 +1,14 @@
 import React from 'react';
 
+// header should contain navigation
+// name should be in header 
+
 function Header() {
-  return <h1>This is a header</h1>;
+  return (
+    <div class="header">
+      <header>This is a header</header>
+    </div>
+  );
 }
 
 export default Header;
