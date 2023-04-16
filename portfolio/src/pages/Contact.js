@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Contact.css';
 
 // contact form with fields for name, email address, message
 // if field is blank, notify that it is required field
@@ -6,12 +7,20 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div class="contact">
-          <form> Contact </form>
-          <input>Name</input>
-          <input>Email</input>
-          <input>Message</input>
- 
+    <div className="contact">
+      <div className="contactbody">
+        <div className="container">
+          <div className="container">
+            <h1> Contact Me</h1>
+            <form id="contact-form">
+              <input placeholder="name" required></input>
+              <input placeholder="email" required></input>
+              <input placeholder="message" type="text" required></input>
+              <button>Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

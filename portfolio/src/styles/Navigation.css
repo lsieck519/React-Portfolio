@@ -1,0 +1,19 @@
+.navigation {
+  width: 100%;
+  background-color: lavenderblush;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(13, 80, 32);
+  text-decoration: none;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  padding: .8%;
+  margin-top: -7px;
+}
+
+.navigation a {
+  color: inherit;
+  text-decoration: none;
+}

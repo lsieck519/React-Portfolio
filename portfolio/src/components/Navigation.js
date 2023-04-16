@@ -1,16 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import '../styles/Navigation.css';
 
-// nav goes inside of header
-// should include about me, projects, contact, and resume 
-// current section should be highlighted 
-// when i click on item in nav, that content is displayed below nav without reloading page 
+// current selection should be highlighted
 
-function Navigation() {
-    return (
-      <div class="nav">
-        <nav>This is nav</nav>
-      </div>
-    );
+function Navigation() { 
+  return (
+    <div className="navigation">
+        <Link to="/"> ABOUT </Link>
+        <Link to="/projects"> PROJECTS </Link>
+        <Link to="/resume"> RESUME </Link>
+        <Link to="/contact"> CONTACT </Link>
+    </div>
+  );
 }
 
 export default Navigation;
