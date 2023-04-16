@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+
 function App() {
   return (
     <div className="App">

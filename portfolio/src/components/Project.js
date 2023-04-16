@@ -8,12 +8,15 @@ function ProjectTile({ title, image, repo, link }) {
         <h1 className="tiletitle"> {title} </h1>
         <ul>
           <li>
-            <a href={repo}>GitHub</a>
+            <a href={repo} target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
           </li>
           <li>
-            <a href={link}>{title}</a>
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              {title}
+            </a>
           </li>
-          
         </ul>
       </div>
     );
