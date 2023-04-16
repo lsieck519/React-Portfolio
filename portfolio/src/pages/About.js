@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import '../styles/About.css';
 import laura from '../assets/laura.jpg';
 
-// this should be displayed by default 
-// include an image of myself
 
 function About() {
   return (

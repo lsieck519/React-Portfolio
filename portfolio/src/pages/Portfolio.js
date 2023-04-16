@@ -3,6 +3,10 @@ import { ProjectList } from "../helpers/Projects";
 import ProjectTile from "../components/Project";
 import '../styles/Portfolio.css';
 
+
+// include 6 projects 
+
+
 function Portfolio() {
   return (
     <div className="projects">
@@ -29,10 +33,4 @@ function Portfolio() {
 export default Portfolio;
 
 
-// needs to include image of project
-// title of project
-// link to deployed app
-// link to repo 
-// include 6 projects 
-// should be arranged as tiles 
 

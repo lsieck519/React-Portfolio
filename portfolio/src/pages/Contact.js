@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/Contact.css';
 
-// contact form with fields for name, email address, message
 // if field is blank, notify that it is required field
 // notify if email is invalid
 

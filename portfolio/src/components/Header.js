@@ -4,8 +4,6 @@ import '../styles/Header.css';
 
 import headerimage from '../assets/CoverPhoto.jpg'
 
-// header should contain navigation
-// name should be in header 
 
 function Header() {
   return (

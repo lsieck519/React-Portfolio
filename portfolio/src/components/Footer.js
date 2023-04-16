@@ -6,7 +6,6 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
-//should include text or icon links to github and linkedin, and third platform ?
 function Footer() {
     return (
       <div className="footer">

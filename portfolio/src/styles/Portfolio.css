@@ -61,7 +61,9 @@
 }
 
 .projectTile:hover {
-  box-shadow: 0px 3px 15px rgba(188, 223, 233, 0.5);
+  box-shadow: 0px 5px 15px rgba(104, 201, 225, 0.5);
+  width: 295px;
+  height: 340px;
   transition: 0.1s ease-in;
   cursor: pointer;
 }
