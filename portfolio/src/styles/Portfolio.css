@@ -31,6 +31,7 @@
   font-size: 1.6em;
   color: rgb(115, 12, 12);
   letter-spacing: 0.05em;
+  font-weight: lighter;
 }
 
 
@@ -49,9 +50,16 @@
   height: 340px;
   margin: 3%;
   padding: 2%;
-  background-color: #638dad;;
+  background-color: #accfea;;
 }
 
+.ghicon {
+  font-size: 2em;
+}
+
+.ghicon:hover {
+  font-size: 2.4em;
+}
 
 .projectList ul li {
   list-style: none;
@@ -60,13 +68,13 @@
   padding: 1%;
 }
 
-.projectTile:hover {
+/* .projectTile:hover {
   box-shadow: 0px 5px 15px rgba(104, 201, 225, 0.5);
   width: 295px;
   height: 340px;
   transition: 0.1s ease-in;
   cursor: pointer;
-}
+} */
 
 
 .projectTile div {

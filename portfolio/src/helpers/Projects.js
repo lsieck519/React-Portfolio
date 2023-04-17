@@ -3,6 +3,7 @@ import WeatherDash from "../assets/WeatherDashImg.png"
 import TextEditor from "../assets/JATEImg.png"
 import Belle from "../assets/BelleImg.png"
 import RecipeMe from '../assets/RecipeMeImg.png';
+import PasswordGen from '../assets/PasswordGenImg.png';
 
 export const ProjectList = [
   {
@@ -34,5 +35,11 @@ export const ProjectList = [
     image: RecipeMe,
     repo: 'https://github.com/lsieck519/RecipeMe',
     link: 'https://quiet-forest-61314.herokuapp.com/',
+  },
+  {
+    title: 'Password Generator',
+    image: PasswordGen,
+    repo: 'https://github.com/lsieck519/Password-Generator',
+    link: 'https://lsieck519.github.io/Password-Generator/',
   },
 ];

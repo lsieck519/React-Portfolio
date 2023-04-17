@@ -1,5 +1,7 @@
 import React from "react";
 import '../styles/Portfolio.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function ProjectTile({ title, image, repo, link }) {
     return (
@@ -10,15 +12,15 @@ function ProjectTile({ title, image, repo, link }) {
           <h1 className="tiletitle"> {title} </h1>
           <ul>
             <li>
-              <a href={repo} target="_blank" rel="noopener noreferrer">
-                GitHub
+              <a href={repo} target="_blank" rel="noopener noreferrer" className="ghicon">
+                <FontAwesomeIcon icon={faGithub} />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href={link} target="_blank" rel="noopener noreferrer">
                 {title}
               </a>
-            </li>
+            </li> */}
           </ul>
         </a>
       </div>
