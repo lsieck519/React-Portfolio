@@ -23,5 +23,25 @@
 .fcontainer {
   display: flex;
   justify-content: right;
- 
+}
+
+
+@media only screen and (max-width: 800px) {
+.footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  }
+.footer h2 {
+  font-size: 0px;
+}
+.icons {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.icons a {
+  align-items: center;
+}
 }

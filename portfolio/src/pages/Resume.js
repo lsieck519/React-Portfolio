@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Resume.css';
-import resume from '../assets/sieckresume.pdf'
+import resume from '../assets/LauraSieckResume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 

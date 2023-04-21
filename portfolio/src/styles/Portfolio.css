@@ -34,6 +34,9 @@
   font-weight: lighter;
 }
 
+.tiletitle:hover {
+  font-size: 1.7em;
+}
 
 .projectList {
   width: 90vw;

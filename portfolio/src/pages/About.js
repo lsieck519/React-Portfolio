@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../styles/About.css';
 import laura from '../assets/laura.jpg';
-
 
 function About() {
   return (
@@ -24,9 +22,6 @@ function About() {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
-          <Link to="/projects">
-            <button> My Projects </button>
-          </Link>
         </div>
       </div>
     </div>
