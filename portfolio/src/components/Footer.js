@@ -11,7 +11,6 @@ function Footer() {
       <div className="footer">
         <footer>
           <div className="fcontainer">
-            <h2>Created by Laura Sieck</h2>
             <div className="icons">
               <a
                 href="mailto:sieck519@gmail.com"
