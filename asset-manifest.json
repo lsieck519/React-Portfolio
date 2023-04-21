@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.8f1d8067.css",
+    "main.js": "/React-Portfolio/static/js/main.009c20ce.js",
+    "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/CoverPhoto.jpg": "/React-Portfolio/static/media/CoverPhoto.bc3f687f3335944796cd.jpg",
+    "static/media/RecipeMeImg.png": "/React-Portfolio/static/media/RecipeMeImg.bd879bc19afd0c36adaf.png",
+    "static/media/WeatherDashImg.png": "/React-Portfolio/static/media/WeatherDashImg.cfb2723d5ed7e9c85ad4.png",
+    "static/media/laura.jpg": "/React-Portfolio/static/media/laura.3b71d5fd1eb946045adb.jpg",
+    "static/media/JATEImg.png": "/React-Portfolio/static/media/JATEImg.7f18c79d8f09aedc3a31.png",
+    "static/media/TechBlogImg.png": "/React-Portfolio/static/media/TechBlogImg.ec78a1faa7efd19cc622.png",
+    "static/media/PasswordGenImg.png": "/React-Portfolio/static/media/PasswordGenImg.e517b04314df60f27205.png",
+    "static/media/BelleImg.png": "/React-Portfolio/static/media/BelleImg.3d10bc586d8afacb1f12.png",
+    "static/media/LauraSieckResume.pdf": "/React-Portfolio/static/media/LauraSieckResume.f1e5e657220f8795d52c.pdf",
+    "index.html": "/React-Portfolio/index.html",
+    "main.8f1d8067.css.map": "/React-Portfolio/static/css/main.8f1d8067.css.map",
+    "main.009c20ce.js.map": "/React-Portfolio/static/js/main.009c20ce.js.map",
+    "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f1d8067.css",
+    "static/js/main.009c20ce.js"
+  ]
+}
