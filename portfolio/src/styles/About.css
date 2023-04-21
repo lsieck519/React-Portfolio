@@ -16,14 +16,13 @@
   max-width: 60%;
 }
 
-
 .about h1 {
   justify-content: center;
   align-items: center;
   font-size: 2em;
   color: darkred;
   font-weight: lighter;
-  margin-top: -8%;
+  margin-top: 8%;
 }
 
 .aboutbody p {
@@ -44,4 +43,10 @@
   font-weight: lighter;
   margin-top: 5%;
   padding: .9%;
+}
+
+@media only screen and (max-width: 800px) {
+.image img {
+  display: none;
+  }
 }

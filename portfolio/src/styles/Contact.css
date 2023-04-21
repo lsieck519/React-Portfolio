@@ -6,11 +6,6 @@
   padding-bottom: 3%;
 }
 
-.contactbody {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .contact h1 {
   justify-content: center;
@@ -18,5 +13,35 @@
   font-size: 2em;
   color: darkred;
   font-weight: lighter;
-  margin-bottom: 8%;
+  margin-bottom: 3%;
+}
+
+
+.input-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1%;
+}
+
+
+#nameid, #contactid {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 300px;
+  font-size: 1em;
+  margin-top: 2%;
+}
+
+
+#messageid {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 6%;
+  width: 300px;
+  font-size: 1em;
+  margin-top: 2%;
 }

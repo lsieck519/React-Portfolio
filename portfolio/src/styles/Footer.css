@@ -1,5 +1,6 @@
 .footer {
   width: 100%;
+  margin-bottom: 0%;
 }
 
 .footer h2 {
@@ -31,15 +32,17 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
+  margin-bottom: 0%;
   }
 .footer h2 {
-  font-size: 0px;
+  display: none;
 }
 .icons {
   font-size: 1.5em;
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 0%;
 }
 .icons a {
   align-items: center;

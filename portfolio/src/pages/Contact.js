@@ -49,43 +49,44 @@ function Contact() {
 
   return (
     <div className="contact">
-      <div className="contactbody">
-        <div className="container">
-          <div className="container">
-            <h1> Contact Me</h1>
-            <form id="contact-form">
-              <input
-                value={contactEmail}
-                name="contactEmail"
-                onChange={handleInputChange}
-                type="email"
-                placeholder="email"
-              />
-              <input
-                value={contactName}
-                name="contactName"
-                onChange={handleInputChange}
-                type="text"
-                placeholder="name"
-              />
-              <input
-                value={contactMessage}
-                name="contactMessage"
-                onChange={handleInputChange}
-                type="text"
-                placeholder="message"
-              />
-              <button type="button" onClick={handleFormSubmit}>
-                Submit
-              </button>
-            </form>
-            {submitMessage && (
-              <div>
-                <p className="submit-message">{submitMessage}</p>
-              </div>
-            )}
+      <h1> Contact Me</h1>
+      <div className="contact-form-container">
+        <form id="contact-form">
+          <div className="input-container">
+            <input
+              value={contactEmail}
+              name="contactEmail"
+              id="nameid"
+              onChange={handleInputChange}
+              type="email"
+              placeholder="email"
+            />
+            <input
+              value={contactName}
+              name="contactName"
+              id="contactid"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="name"
+            />
+            <input
+              value={contactMessage}
+              name="contactMessage"
+              id="messageid"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="message"
+            />
           </div>
-        </div>
+          <button type="button" onClick={handleFormSubmit}>
+            Submit
+          </button>
+        </form>
+        {submitMessage && (
+          <div>
+            <p className="submit-message">{submitMessage}</p>
+          </div>
+        )}
       </div>
     </div>
   );
