@@ -42,8 +42,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 ## Link
-
 https://lsieck519.github.io/React-Portfolio/
 
 
 ## Questions 
+[Contact me on GitHub](https://github.com/lsieck519)
