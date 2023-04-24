@@ -22,3 +22,19 @@
     text-decoration: none;
     font-size: 3em;
 }
+
+.resume .proficiencies {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume ul li { 
+    list-style: none;
+}
+
+.resume ul {
+    padding: 0%;
+    column-count: 3;
+}

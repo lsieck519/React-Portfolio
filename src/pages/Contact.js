@@ -39,7 +39,7 @@ function Contact() {
       setSubmitMessage('please enter a message');
       return;
     } else {
-      setSubmitMessage(`thank you for your message, ${contactName}!`);
+      setSubmitMessage(`Thank you for your message, ${contactName}!`);
     }
 
     setContactName('');

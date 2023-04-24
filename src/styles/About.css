@@ -12,8 +12,9 @@
   justify-content: center;
 }
 
-.image img {
-  max-width: 60%;
+.aboutbody .image img {
+  max-width: 95%;
+  padding-left: 45%;
 }
 
 .about h1 {
@@ -22,13 +23,15 @@
   font-size: 2em;
   color: darkred;
   font-weight: lighter;
-  margin-top: 4%;
+  margin-top: 0%;
 }
 
-.aboutbody p {
+.aboutcontainer p {
   font-size: 1.2em;
   font-weight: lighter;
   color: black;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 @media only screen and (max-width: 800px) {
