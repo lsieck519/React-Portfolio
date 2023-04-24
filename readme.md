@@ -45,5 +45,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 https://lsieck519.github.io/React-Portfolio/
 
 
+## Credit
+Header image: https://unsplash.com/photos/xoeljsx5CD4
+
+
 ## Questions 
 [Contact me on GitHub](https://github.com/lsieck519)
