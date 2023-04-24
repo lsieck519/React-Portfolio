@@ -38,6 +38,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Preview
 
+![Portfolio Preview](https://user-images.githubusercontent.com/99048123/234021118-c6c1a532-7ee1-42e5-bc38-4394eccf0b78.png)
+
+
 ## Link
 
 https://lsieck519.github.io/React-Portfolio/
