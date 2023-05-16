@@ -4,8 +4,15 @@ import TextEditor from "../assets/JATEImg.png"
 import Belle from "../assets/BelleImg.png"
 import RecipeMe from '../assets/RecipeMeImg.png';
 import PasswordGen from '../assets/PasswordGenImg.png';
+import GigIt from '../assets/GigIt.png';
 
 export const ProjectList = [
+  {
+    title: 'GigIt',
+    image: GigIt,
+    repo: 'https://github.com/lsieck519/GigIt',
+    link: 'https://gigit.herokuapp.com/',
+  },
   {
     title: 'TechBlog',
     image: TechBlog,
