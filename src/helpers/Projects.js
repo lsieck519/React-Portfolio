@@ -11,13 +11,13 @@ export const ProjectList = [
     title: 'GigIt',
     image: GigIt,
     repo: 'https://github.com/lsieck519/GigIt',
-    link: 'https://gigit.herokuapp.com/',
+    link: 'https://github.com/lsieck519/GigIt',
   },
   {
     title: 'TechBlog',
     image: TechBlog,
     repo: 'https://github.com/lsieck519/Tech-Blog',
-    link: 'https://mighty-shore-51821.herokuapp.com/',
+    link: 'https://github.com/lsieck519/Tech-Blog',
   },
   {
     title: 'WeatherDash',
@@ -29,7 +29,7 @@ export const ProjectList = [
     title: 'TextEditor',
     image: TextEditor,
     repo: 'https://github.com/lsieck519/Text-Editor',
-    link: 'https://safe-basin-28779.herokuapp.com/',
+    link: 'https://github.com/lsieck519/Text-Editor',
   },
   {
     title: 'Belle',
@@ -41,7 +41,7 @@ export const ProjectList = [
     title: 'RecipeMe',
     image: RecipeMe,
     repo: 'https://github.com/lsieck519/RecipeMe',
-    link: 'https://quiet-forest-61314.herokuapp.com/',
+    link: 'https://github.com/lsieck519/RecipeMe',
   },
   {
     title: 'Password Generator',
